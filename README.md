@@ -24,8 +24,26 @@ basis the accuracy, Recall and interpretability:
 > - 2. Highest Recall for Class 5 and 6 (over 70% for class 5 and class 6)
 > - 3. Optimizing the F1 Score (Precision-Recall Tradeoff)
 > - 4. Clear communication of the features that influence the Quality of Wine the most
-
-
+#### 4. DATA PREPARATION:
+> - There are 6497 records in the RED and WHITE wine csv files: 1599 for Red Wine and 4898 for White Wine
+> - There are no duplicate records in the dataset
+> - Its a Multiclass Classification problem (Classification into Quality ratings: 1 through 10)
+> - **Imbalanced class distribution as there are only 1% to 3% in Quality 3,4, 8 and 9** 
+> - Looked at 12 features (11 numerical and 1 categorical which is "Color")
+> - Descriptive Statistics: Wide range of values across various features. Requires scaling of the data for Classification models like KNN, SVM, Logistic Regression
+> - Combined the Red and White Dataset into one Data set called "Wine" with White Wine labelled as "0" and Red as "1"
+#### 5. EXPLORATORATORY DATA ANALYSIS (EDA)
+> Following are the Exploratory Data Analysis techniques used:
+> - Histogram and KDE Plot for each of the features
+> - Box Plot of the Target Variable (Quality of White and Red Wine)
+> - Heatmap to find the correlation between the Features that may show linear relationship
+> - p-Values for Red, White and Combined dataset to find the features that may be less statistically significant
+> - Line plot for each of the features with mean values across different Quality ratings to find the linear trend/relationship
+> - PairPlot to find some linear and nonlinear relationships between various featues and Quality ratings
+#### 6. EDA FINDINGS
+> - Histogram and KDE Plot for each of the features
+> - Box Plot of the Target Variable (Quality of White and Red Wine)
+> - Heatmap to find the correlation between the Features that may show linear relationship
 
 
 
