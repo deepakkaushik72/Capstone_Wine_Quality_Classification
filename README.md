@@ -9,3 +9,19 @@
 > - 1. Classsify the Wine Samples of White and Red wine on a scale of 1 to 10 and achieving a accuracy of over ~ 65%
 > - 2. Recall of over 70% for class 5 and class 6
 > - 3. Identify the features that influence the quality of wine the most
+### Data Source: Kaggle - https://www.kaggle.com/datasets/mihaltursukov/wine-quality/dataLinks to an external site.
+> - 1. 6497 wine data points: 1599 for Red Wine with Quality ratings as 3, 4, 5, 6, 7, 8 and 4898 for White Wine with Quality ratings 3, 4, 5, 6, 7, 8, 9
+> - 2. 11 features/physical characteristics: ['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 
+   'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'color']
+3. Output variable: “Quality” (1 through 10)
+
+Following are the Supervised Machine Learning algorithms that will be used to categorize the Wine quality and select the best 
+basis the accuracy, Recall and interpretability:
+
+1. Logistics Regression 2. KNN 3. Decision Trees 4. Support Vector Machines 5. Random Forest 6. Gradient Boosting (XGBoost) 7. Neural Networks
+      
+SUCCESS METRICS:
+1. Accuracy score of Wine classification: Accuracy > 65%, Recall, Precision > 65%
+2. Highest Recall for Class 5 and 6 (over 70% for class 5 and class 6)
+3. Optimizing the F1 Score (Precision-Recall Tradeoff)
+4. Clear communication of the features that influence the Quality of Wine the most
