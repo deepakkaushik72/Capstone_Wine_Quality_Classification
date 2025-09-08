@@ -41,9 +41,26 @@ basis the accuracy, Recall and interpretability:
 > - Line plot for each of the features with mean values across different Quality ratings to find the linear trend/relationship
 > - PairPlot to find some linear and nonlinear relationships between various featues and Quality ratings
 #### 6. EDA FINDINGS
-> - Histogram and KDE Plot for each of the features
-> - Box Plot of the Target Variable (Quality of White and Red Wine)
-> - Heatmap to find the correlation between the Features that may show linear relationship
+> - Quality of Wine improves as the Volatile acidity decreases for RED wine.
+> - Quality of wine improves as the Citric acid increases for RED wine.
+> - Alcohol content seems to have a strong correlation with the quality of wine for both RED and WHITE wines.
+> - Sulphates also seems to have a positive correlation with the quality of wine for RED Wines
+> - Quality of RED wine seems to go up with decrease in pH but vice versa for White Wine
+> - Chrolides seems to have a negative correlation with the quality of wine for both RED and WHITE wines
+> - Total Sulfur dioxide and Free Sulfur dioxide seems folows similar trend with Quality but not very significant correlation
+> - It appears that certain features like Alcohol has a strong positive correlation with wine quality.
+> - Alcohol and density seems to have a negative multicollinearity issue.
+> - Total Sulfur Dioxide and Free Sulfur Dioxide also seems to have a positive multicollinearity issue
+> - WHITE WINE:Citric Acid & Free Sulfur Dioxide seems to be statistically less significant (p-Values > 0.5)
+> - RED WINE: Residual Sugar seems to be statistically less significant(p-Values > 0.5)
+#### 7. NEXT STEPS
+> - Feature Engineering and Selection
+> - Model Fitting and Evaluation
+> - HyperParameter Tuning for different models
+> - Model Evaluation and Best Model Selection
+> - Top Features identification for Wine Quality prediction
+> - Commuinication of Findings and Deployment
+> - Potential Use cases for Deployment of Model for Wine Quality Rating Prediction
 
 
 
