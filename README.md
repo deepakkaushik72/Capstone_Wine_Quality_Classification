@@ -24,3 +24,9 @@ basis the accuracy, Recall and interpretability:
 > - 2. Highest Recall for Class 5 and 6 (over 70% for class 5 and class 6)
 > - 3. Optimizing the F1 Score (Precision-Recall Tradeoff)
 > - 4. Clear communication of the features that influence the Quality of Wine the most
+
+
+
+
+
+
