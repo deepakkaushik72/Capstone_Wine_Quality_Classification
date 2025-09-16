@@ -1,5 +1,6 @@
 ### CapstoneProject : Wine Classification (Quality Ratings - 1 through 10)
 #### Link to Jupyter Notebook: https://github.com/deepakkaushik72/Capstone_Wine_Quality_Classification/blob/main/red_white_classification.ipynb
+#### https://github.com/deepakkaushik72/Capstone_Wine_Quality_Classification/blob/main/red_white_classification%20ANN.ipynb
 #### Link to Images: https://github.com/deepakkaushik72/Capstone_Wine_Quality_Classification/tree/main/Images
 #### Link to Data: https://github.com/deepakkaushik72/Capstone_Wine_Quality_Classification/blob/main/winequality-red.csv
 ####               https://github.com/deepakkaushik72/Capstone_Wine_Quality_Classification/blob/main/winequality-white.csv
