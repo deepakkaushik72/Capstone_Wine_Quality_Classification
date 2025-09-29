@@ -95,15 +95,15 @@ basis the accuracy, Recall and interpretability:
 >>> - "Citric Acid"
 >>> - "Residual Sugar"
 >>> - "Sulphates"
-#### 7. NEXT STEPS
-> - Feature Engineering and Selection
-> - Model Fitting and Evaluation
-> - HyperParameter Tuning for different models
-> - Model Evaluation and Best Model Selection
-> - Top Features identification for Wine Quality prediction
-> - Commuinication of Findings and Deployment
-> - Potential Use cases for Deployment of Model for Wine Quality Rating Prediction
+#### 10. NEXT STEPS
+> - 1. Identify other external factors that can influence the quality of wine like weather, soil, Flavanoids, Magnesium content etc and include them in the model that may help to improve the Recall for Class 5 and 6 
+> - Identify Potential use cases where wine classification model can be applied in practice.
+> - Understand the business objectives and align the model accordingly basis the use case.
+
+#### 11. PRACTICAL APPLICATION AND BUSINESS VALUE OF WINE QUALITY PREDICTION MODEL
+> - classify wine into different categories (1 through 10) and at scale without relying on manual process of classifying wine that’s time consuming and is left to individual choices and taste buds at times.
+> - Opportunity for Wine makersto modify and finetune the production process so that the Wine falls into desired class (4,5,6 into medium category, 7,8 into high and 9 and 10 into fine wine category)
+> - From a marketeer perspective, it provides opportunity to maximize the revenue or avoid revenue leakage for wines misclassified into lower grade than it actually is.
 
 
-
-
+#### -------------------------------------------END OF REPORT------------------------------------------- ###
