@@ -56,9 +56,9 @@ basis the accuracy, Recall and interpretability:
 > - RED WINE: Residual Sugar seems to be statistically less significant(p-Values > 0.5)
 #### 6. FEATURE SELECTION AND ENGINEERING:
 > - There are **11 Features Identified** for building the ML models: 'fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'color']. Target Variable is "Quality" (1 through 10)
-> - However basis the analysis and domain knowledge, I will be using all the features for model building and selection.
-> - All numerical Features excluding the "Density" feature as it has a strong multicollinearity with Alcohol.
-> - Only one of the Sulfur Dioxide features (Free Sulfur Dioxide) is used in Modelling as it has a strong Multi collinearity with Free Sulfur Dioxide.
+> - However basis the EDA analysis and domain knowledge, I will be using only 9 of the 11 features for model building and selection.
+    > - All numerical Features excluding the "Density" feature as it has a strong multicollinearity with Alcohol.
+    > - Only one of the Sulfur Dioxide features (Free Sulfur Dioxide) is used in Modelling as it has a strong Multi collinearity with Free Sulfur Dioxide.
 > - Color feature will be one-hot encoded and seems to be important for Quality ratings.
 > - Quality will be the target variable.""")Defined and Input Features and Target Variable
 > - Created a preprocess for Scaling the Numerical features and OneHotEncoding for categorical features
