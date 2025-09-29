@@ -12,7 +12,7 @@
 > - 3. Identify the features that influence the quality of wine the most
 #### 2. Data Source: Kaggle - https://www.kaggle.com/datasets/mihaltursukov/wine-quality/dataLinks to an external site.
 > - 1. 6497 wine data points: 1599 for Red Wine with Quality ratings as 3, 4, 5, 6, 7, 8 and 4898 for White Wine with Quality ratings 3, 4, 5, 6, 7, 8, 9
-> - 2. 11 features/physical characteristics: ['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 
+> - 2. 12 features/physical characteristics: ['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 
    'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'color']
 > - 3. Output variable: “Quality” (1 through 10)
 
@@ -55,11 +55,12 @@ basis the accuracy, Recall and interpretability:
 > - WHITE WINE:Citric Acid & Free Sulfur Dioxide seems to be statistically less significant (p-Values > 0.5)
 > - RED WINE: Residual Sugar seems to be statistically less significant(p-Values > 0.5)
 #### 7. FEATURE SELECTION AND ENGINEERING:
-> - There are **11 Features Identified** for building the ML models: 'fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'color']. There are both Linear and Non-Linear features that nneds to be included
+> - There are **12 Features Identified** for building the ML models: 'fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol', 'color']. There are both Linear and Non-Linear features that nneds to be included
 > - Target Variable is "Quality" (1 through 10)
 > - However basis the EDA analysis and domain knowledge, I will be using **only 9 of the 11 features** for model building and selection.
 > - All numerical Features **excluding the "Density" feature** as it has a strong multicollinearity with Alcohol.
 > - Only one of the Sulfur Dioxide features (**Free Sulfur Dioxide**) is used in Modelling as it has a strong Multi collinearity with **Total Sulfur Dioxide (Excluded)**.
+> - **Only 10 features Included**
 > - Color feature will be one-hot encoded and seems to be important for Quality ratings.
 > - Quality will be the target variable.
 > - Since its an imbalanced DataSet where Quality ratings samples of 3, 4, 8 and 9 range from 1%-3%. **SMOTE technique for Oversampling** is used to create a balanced Dataset
@@ -85,7 +86,7 @@ basis the accuracy, Recall and interpretability:
 >>> - Recall for Class 5 for Red wine (88%) is much higher as compared to White Wine (76%)
 >>> - Recall for Class 6 for White Wine (66%) is much higher as compared to Red Wine (57%)
 > - **"Color of Wine" seems to have a very little impact on the Wine Quality**. The Random Forest model accuracy reduces by just 1% (from 90% to 89%) if the "Color" feature is not included in the Model building and finetuning.
-> - Factors that influence the Red and White Wine Quality then most are:
+> - Factors that influence the Red and White Wine Quality then most are (Excluding "Color"):
 >>> - "Chlorides"
 >>> - "Free Sulfur Dioxide"
 >>> - "Alcohol"
