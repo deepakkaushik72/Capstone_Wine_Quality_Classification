@@ -71,16 +71,30 @@ basis the accuracy, Recall and interpretability:
 > - The accuracies for Linear/Distance based models(KNN, Logistics Refression) is low as they account for Linear features, the hyperparameter tuning is done for only Decision Trees, random Forest, XGBOOST and ANN.
 > - Did the Hyper Parameter tuning for Decision Trees, Random Forest, XGBOOST and ANN models: **Test Accuracy and Recall for Random Forest and XGBOOST in the range of 89%-90%**. **Random FOrest seems to the best Model with Highest accuracy of 90% and Recall of 89%**
 > - Selected the **RANDOM FOREST** model as it had **best accuracy(90%) and Recall(90%)**, but more importantly, its easy to communicate the non-technical audience on how the model works and what really drives the Quality of Wine.
-> - Best Parameter of Random Forest Model:**{'classifier__max_depth': None, 'classifier__max_features': 'sqrt', 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}**
 > - Used the **Confusion Matrix** to show the **Accuracy, Recall and Precision**  
 #### 9. RESULTS / FINDINGS
 > - Best Model: **RANDOM FOREST**: Balance between Recall, Precision and Accuracy (All 90%)
 >>> - Training Accuracy: 1.00
 >>> -	**Testing Accuracy: 0.90**
 >>> - **Testing Recall: 0.90**
+>>> - **Testing Recall for CLass 5: 0.80**
+>>> - **Testing Recall for CLass 6: 0.65**
 >>> - Testing Precision: 0.90
 > - Best Parameter of Random Forest Model:**{'classifier__max_depth': None, 'classifier__max_features': 'sqrt', 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}**
-> - Used the **Confusion Matrix** to show the **Accuracy, Recall and Precision**
+> - **Random Forest Model perform better for White Wine as compared to Red Wine** with accuracy of 90% vs 84%
+>>> - Recall for Class 5 for Red wine (88%) is much higher as compared to White Wine (76%)
+>>> - Recall for Class 6 for White Wine (66%) is much higher as compared to Red Wine (57%)
+> - **"Color of Wine" seems to have a very little impact on the Wine Quality**. The Random Forest model accuracy reduces by just 1% (from 90% to 89%) if the "Color" feature is not included in the Model building and finetuning.
+> - Factors that influence the Red and White Wine Quality then most are:
+>>> - "Chlorides"
+>>> - "Free Sulfur Dioxide"
+>>> - "Alcohol"
+>>> - "Volatile Acidity"
+>>> - "pH"
+>>> - "Fixed Acidity"
+>>> - "Citric Acid"
+>>> - "Residual Sugar"
+>>> - "Sulphates"
 #### 7. NEXT STEPS
 > - Feature Engineering and Selection
 > - Model Fitting and Evaluation
