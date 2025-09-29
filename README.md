@@ -80,7 +80,7 @@ basis the accuracy, Recall and interpretability:
 >>> - **Testing Recall for CLass 5: 0.80**
 >>> - **Testing Recall for CLass 6: 0.65**
 >>> - Testing Precision: 0.90
-> - Best Parameter of Random Forest Model:**{'classifier__max_depth': None, 'classifier__max_features': 'sqrt', 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}**
+> - Best Parameter of Random Forest Model:{'classifier__max_depth': None, 'classifier__max_features': 'sqrt', 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}
 > - **Random Forest Model perform better for White Wine as compared to Red Wine** with accuracy of 90% vs 84%
 >>> - Recall for Class 5 for Red wine (88%) is much higher as compared to White Wine (76%)
 >>> - Recall for Class 6 for White Wine (66%) is much higher as compared to Red Wine (57%)
