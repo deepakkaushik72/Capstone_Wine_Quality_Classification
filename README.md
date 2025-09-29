@@ -96,7 +96,7 @@ basis the accuracy, Recall and interpretability:
 >>> - "Residual Sugar"
 >>> - "Sulphates"
 #### 10. NEXT STEPS
-> - 1. Identify other external factors that can influence the quality of wine like weather, soil, Flavanoids, Magnesium content etc and include them in the model that may help to improve the Recall for Class 5 and 6 
+> - Identify other external factors that can influence the quality of wine like weather, soil, Flavanoids, Magnesium content etc and include them in the model that may help to improve the Recall for Class 5 and 6 
 > - Identify Potential use cases where wine classification model can be applied in practice.
 > - Understand the business objectives and align the model accordingly basis the use case.
 
