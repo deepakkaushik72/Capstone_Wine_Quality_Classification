@@ -65,7 +65,7 @@ basis the accuracy, Recall and interpretability:
 > - Since its an imbalanced DataSet where Quality ratings samples of 3, 4, 8 and 9 range from 1%-3%. **SMOTE technique for Oversampling** is used to create a balanced Dataset
 > - Created a preprocess for Scaling 8 Numerical features and OneHotEncoding for 1 categorical features i.e "Color"
 > - Created a Train and Test Split of the Input features and Target Variable (Applied 20% test split and Stratify = y)
-#### 7. MODEL TESTING & EVALUATION:
+#### 8. MODEL TESTING & EVALUATION:
 > - Used the Dummy Classifier to calculate the Model Accuracy and Racall: Train and Test Accuracy is 14%
 > - Build up the Simple Model: Logistics Regression, KNN, Decision Trees, Random Forest, XGBOOST and Artificial Neural Network(ANN): Random FOrest and XGBOOST have the best Test accuracy of 88% and 87% respectively
 > - The accuracies for Linear/Distance based models(KNN, Logistics Refression) is low as they account for Linear features, the hyperparameter tuning is done for only Decision Trees, random Forest, XGBOOST and ANN.
@@ -73,6 +73,14 @@ basis the accuracy, Recall and interpretability:
 > - Selected the **RANDOM FOREST** model as it had **best accuracy(90%) and Recall(90%)**, but more importantly, its easy to communicate the non-technical audience on how the model works and what really drives the Quality of Wine.
 > - Best Parameter of Random Forest Model:**{'classifier__max_depth': None, 'classifier__max_features': 'sqrt', 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}**
 > - Used the **Confusion Matrix** to show the **Accuracy, Recall and Precision**  
+#### 9. RESULTS / FINDINGS
+> - Best Model: **RANDOM FOREST**: Balance between Recall, Precision and Accuracy (All 90%)
+>>> - Training Accuracy: 1.00
+>>> -	**Testing Accuracy: 0.90**
+>>> - **Testing Recall: 0.90**
+>>> - Testing Precision: 0.90
+> - Best Parameter of Random Forest Model:**{'classifier__max_depth': None, 'classifier__max_features': 'sqrt', 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}**
+> - Used the **Confusion Matrix** to show the **Accuracy, Recall and Precision**
 #### 7. NEXT STEPS
 > - Feature Engineering and Selection
 > - Model Fitting and Evaluation
