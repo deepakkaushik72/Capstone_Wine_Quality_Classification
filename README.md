@@ -68,7 +68,8 @@ basis the accuracy, Recall and interpretability:
 > - Created a Train and Test Split of the Input features and Target Variable (Applied 20% test split and Stratify = y)
 #### 8. MODEL TESTING & EVALUATION:
 > - Used the Dummy Classifier to calculate the Model Accuracy and Racall: Train and Test Accuracy is 14%
-> - Build up the Simple Model: Logistics Regression, KNN, Decision Trees, Random Forest, XGBOOST and Artificial Neural Network(ANN): Random FOrest and XGBOOST have the best Test accuracy of 88% and 87% respectively
+> - Build up the Simple Model: Logistics Regression, KNN, Decision Trees, Random Forest, XGBOOST and Artificial Neural Network(ANN): Random Forest and XGBOOST have the best Test accuracy of 88% and 87% respectively
+> - Also tested the SVM model separately and the Train and Test accuracy was 84% and 79% respectively. Not included in the Jupyter notebook because of the runtime crossing 10 minutes and size of the notebook exceeded 4MB.
 > - The accuracies for Linear/Distance based models(KNN, Logistics Refression) is low as they account for Linear features, the hyperparameter tuning is done for only Decision Trees, random Forest, XGBOOST and ANN.
 > - Did the Hyper Parameter tuning for Decision Trees, Random Forest, XGBOOST and ANN models: **Test Accuracy and Recall for Random Forest and XGBOOST in the range of 89%-90%**. **Random FOrest seems to the best Model with Highest accuracy of 90% and Recall of 89%**
 > - Selected the **RANDOM FOREST** model as it had **best accuracy(90%) and Recall(90%)**, but more importantly, its easy to communicate the non-technical audience on how the model works and what really drives the Quality of Wine.
