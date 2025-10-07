@@ -76,7 +76,10 @@ basis the accuracy, Recall and interpretability:
 #### 9. RESULTS / FINDINGS
 | Model | Train Accuracy | Test Accuracy | Test Precision | Test Recall |
 |---|---|---|---|---|
-| Logistic Regression | 0.56 | 0.54 | 0.53 | 0.54 |
+| Best Decision Tree | 1.00 | 0.82 | 0.81 | 0.81 |
+| Best Random Forest | 1.00 | 0.90 | 0.89 | 0.89 |
+| Best XGBoost | 1.00 | 0.90 | 0.90 | 0.90 |
+| Best Neural Network | 0.74 | 0.70 | 0.69 | 0.69 |
 > - Best Model: **RANDOM FOREST**: Balance between Recall, Precision and Accuracy (All 90%)
 >>> - Training Accuracy: 1.00
 >>> -	**Testing Accuracy: 0.90**
