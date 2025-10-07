@@ -75,7 +75,7 @@ basis the accuracy, Recall and interpretability:
 > - Used the **Confusion Matrix** to show the **Accuracy, Recall and Precision**  
 #### 9. RESULTS / FINDINGS
 | Model | Train Accuracy | Test Accuracy | Test Precision | Test Recall |
-|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|
 | Best Decision Tree | 1.00 | 0.82 | 0.81 | 0.81 |
 | Best Random Forest | 1.00 | 0.90 | 0.89 | 0.89 |
 | Best XGBoost | 1.00 | 0.90 | 0.90 | 0.90 |
