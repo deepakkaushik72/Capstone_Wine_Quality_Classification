@@ -68,6 +68,7 @@ basis the accuracy, Recall and interpretability:
 #### 8. MODEL TESTING & EVALUATION:
 > - Used the Dummy Classifier to calculate the Model Accuracy and Racall: Train and Test Accuracy is 14%
 > - Build up the Simple Model: Logistics Regression, KNN, Decision Trees, Random Forest, XGBOOST and Artificial Neural Network(ANN): Random Forest and XGBOOST have the best Test accuracy of 89% and 88% respectively
+> - 
 | Simple Models | Train Accuracy | Test Accuracy | Test Precision | Test Recall |
 |:---:|:---:|:---:|:---:|:---:|
 | Logistic Regression | 0.56 | 0.54 | 0.53 | 0.54 |
