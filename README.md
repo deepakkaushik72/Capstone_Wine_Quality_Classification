@@ -70,7 +70,7 @@ basis the accuracy, Recall and interpretability:
 > - Build up the Simple Model: Logistics Regression, KNN, Decision Trees, Random Forest, XGBOOST and Artificial Neural Network(ANN): Random Forest and XGBOOST have the best Test accuracy of 88% and 87% respectively
 
 | Simple Models | Train Accuracy | Test Accuracy | Test Precision | Test Recall |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 | Logistic Regression | 0.56 | 0.54 | 0.53 | 0.54 |
 | K-nearest Neighbor | 0.88 | 0.81 | 0.80 | 0.81 |
 | Decision Tree | 1.00 | 0.82 | 0.82 | 0.82 |
