@@ -74,6 +74,8 @@ basis the accuracy, Recall and interpretability:
 > - Selected the **RANDOM FOREST** model as it had **best accuracy(90%) and Recall(90%)**, but more importantly, its easy to communicate the non-technical audience on how the model works and what really drives the Quality of Wine.
 > - Used the **Confusion Matrix** to show the **Accuracy, Recall and Precision**  
 #### 9. RESULTS / FINDINGS
+| Model | Train Accuracy | Test Accuracy | Test Precision | Test Recall |
+| Logistic Regression | 0.56 | 0.54 | 0.53 | 0.54 |
 > - Best Model: **RANDOM FOREST**: Balance between Recall, Precision and Accuracy (All 90%)
 >>> - Training Accuracy: 1.00
 >>> -	**Testing Accuracy: 0.90**
