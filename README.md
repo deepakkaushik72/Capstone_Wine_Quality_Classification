@@ -77,6 +77,7 @@ basis the accuracy, Recall and interpretability:
 | Random Forest | 1.00 | 0.89 | 0.89 | 0.89 |
 | XGBoost | 0.99 | 0.88 | 0.88 | 0.88 |
 | Neural Network | 0.64 | 0.63 | 0.62 | 0.64 |
+
 > - Also tested the **SVM model separately and the Train and Test accuracy was 84% and 79% respectively**. Not included in the Jupyter notebook because of the runtime crossing 10 minutes and size of the notebook exceeded 4MB.
 > - The accuracies for Linear/Distance based models(KNN, Logistics Refression) is low as they account for Linear features, the hyperparameter tuning is done for only Decision Trees, random Forest, XGBOOST and ANN.
 > - Did the Hyper Parameter tuning for Decision Trees, Random Forest, XGBOOST and ANN models: **Test Accuracy and Recall for Random Forest and XGBOOST in the range of 89%-90%**. **Random FOrest seems to the best Model with Highest accuracy of 90% and Recall of 89%**
