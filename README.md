@@ -94,8 +94,8 @@ basis the accuracy, Recall and interpretability:
 >>> - Training Accuracy: 1.00
 >>> -	**Testing Accuracy: 0.90**
 >>> - **Testing Recall: 0.90**
->>> - **Testing Recall for CLass 5: 0.80**
->>> - **Testing Recall for CLass 6: 0.65**
+>>> - **Testing Recall for Class 5: 0.80**
+>>> - **Testing Recall for Class 6: 0.65**
 >>> - Testing Precision: 0.90
 > - Best Parameter of Random Forest Model:{'classifier__max_depth': None, 'classifier__max_features': 'sqrt', 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}
 > - **Random Forest Model perform better for White Wine as compared to Red Wine** with accuracy of 90% vs 84%
